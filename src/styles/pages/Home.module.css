@@ -1,0 +1,442 @@
+.categories .categoryLine:nth-child(1) {
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.categories .categoryLine:nth-child(2) {
+    grid-template-columns: repeat(2, 1fr);
+    width: calc(100% / 3 * 2 + 24px);
+}
+
+.categories, .categories .categoryLine:nth-child(1), .categories .categoryLine:nth-child(2) {
+    gap: 24px;
+}
+
+.categoryBlock {
+    padding: 25px 19px 16px;
+    border-radius: 18px;
+    height: 200px;
+}
+
+.categoryBlock h3 {
+    font-size: 20px;
+}
+
+.categoryBlock img {
+    height: 60px;
+    margin-left: 10px;
+}
+
+.categoryBlock a {
+    gap: 6px;
+    border-radius: 6px;
+    padding: 0 3px;
+    font-size: 16px;
+}
+
+.categoryBlock a:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.categoryBlock svg {
+    width: 20px;
+    aspect-ratio: 1;
+}
+
+.aboutBlock {
+    padding: 60px 0;
+    margin-top: 99px;
+}
+
+.aboutBlock h2 {
+    font-size: 24px;
+}
+
+.aboutText  {
+    width: 50%;
+    font-size: 22px;
+    margin-top: 46px;
+}
+
+.slogan {
+    margin-top: 60px;
+    font-size: 36px;
+}
+
+.aboutBlockLogo {
+    width: 390px;
+    margin-right: 20px;
+    aspect-ratio: 1;
+    flex-shrink: 0;
+    margin-left: auto;
+}
+
+.featuresPart {
+    margin-top: 80px;
+}
+
+.featureBlock {
+    width: 20%;
+    gap: 18px;
+}
+
+.featureBlock div {
+    width: 100px;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.featureBlock svg {
+    width: 48px;
+    aspect-ratio: 1;
+}
+
+.featureBlock p {
+    text-align: center;
+    font-size: 18px;
+}
+
+.sliderSection {
+    margin-top: 70px;
+}
+
+.sliderSection h2 {
+    font-size: 24px;
+    margin-bottom: 50px;
+}
+
+.mediaSection {
+    margin-top: 52px;
+    padding: 47px 0 57px;
+    gap: 45px;
+}
+
+.mediaSection div {
+    gap: 60px;
+}
+
+.mediaSection h2 {
+    font-size: 24px;
+}
+
+.mediaBlock {
+    height: 60px;
+    border-radius: 30px;
+    padding: 0 32px 0 14px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    font-size: 22px;
+    gap: 18px;
+}
+
+.telegramSvg {
+    height: 35px;
+}
+
+.rutubeSvg {
+    height: 32px;
+    transform: translateX(5px) translateY(-5px);
+}
+
+.youtubeSvg {
+    height: 28px;
+    transform: translateX(3px);
+}
+
+.requestSection {
+    padding: 80px 0;
+    gap: 33px;
+}
+
+.requestSection h2 {
+    font-size: 24px;
+}
+
+@media (max-width: 1399px) {
+    .categoryBlock img {
+        height: 50px;
+    }
+
+    .aboutText {
+        width: 60%;
+    }
+}
+
+@media (max-width: 1199px) {
+    .categoryBlock {
+        padding: 20px 16px 14px;
+        border-radius: 15px;
+        height: 180px;
+    }
+
+    .categoryBlock h3 {
+        font-size: 18px;
+    }
+
+    .categoryBlock a {
+        font-size: 14px;
+    }
+
+    .categoryBlock img {
+        height: 46px;
+    }
+
+    .aboutBlock {
+        padding: 55px 0;
+        margin-top: 75px;
+    }
+
+    .aboutBlock h2 {
+        font-size: 22px;
+    }
+
+    .aboutText  {
+        width: 64%;
+        font-size: 20px;
+        margin-top: 36px;
+    }
+
+    .slogan {
+        margin-top: 50px;
+        font-size: 32px;
+    }
+
+    .aboutBlockLogo {
+        width: 300px;
+        margin-right: 10px;
+    }
+
+    .featuresPart {
+        margin-top: 60px;
+    }
+
+    .featureBlock {
+        gap: 14px;
+    }
+
+    .featureBlock div {
+        width: 80px;
+    }
+
+    .featureBlock svg {
+        width: 38px;
+    }
+
+    .featureBlock p {
+        font-size: 16px;
+    }
+
+    .sliderSection {
+        margin-top: 60px;
+    }
+
+    .sliderSection h2 {
+        font-size: 22px;
+        margin-bottom: 45px;
+    }
+
+    .mediaSection div {
+        gap: 40px;
+    }
+
+    .mediaSection h2 {
+        font-size: 22px;
+    }
+
+    .mediaBlock {
+        height: 52px;
+        font-size: 20px;
+        gap: 14px;
+        padding: 0 32px 0 12px;
+    }
+
+    .telegramSvg {
+        height: 30px;
+    }
+
+    .rutubeSvg {
+        height: 28px;
+        transform: translateX(5px) translateY(-3px);
+    }
+
+    .youtubeSvg {
+        height: 24px;
+        transform: translateX(3px);
+    }
+}
+
+@media (max-width: 991px) {
+    .categories .categoryLine:nth-child(1) {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .categories .categoryLine:nth-child(2) {
+        grid-template-columns: repeat(1, 1fr);
+        width: 100%;
+    }
+
+    .categories, .categories .categoryLine:nth-child(1), .categories .categoryLine:nth-child(2) {
+        gap: 18px;
+    }
+
+    .categoryBlock {
+        height: 140px;
+    }
+
+    .categoryBlock h3 {
+        font-size: 20px;
+    }
+
+    .categoryBlock img {
+        height: 70px;
+    }
+
+    .categoryBlock a {
+        font-size: 16px;
+    }
+
+    .aboutBlock {
+        padding: 45px 0;
+    }
+
+    .aboutText  {
+        width: auto;
+        font-size: 20px;
+        margin-top: 36px;
+    }
+
+    .slogan {
+        margin-top: 35px;
+    }
+
+    .aboutBlockLogo {
+        display: none;
+    }
+
+    .featureBlock div {
+        width: 70px;
+    }
+
+    .featureBlock svg {
+        width: 34px;
+    }
+
+    .featureBlock p {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 767px) {
+    .slogan {
+        font-size: 28px;
+    }
+
+    .featuresPart {
+        margin-top: 50px;
+        flex-wrap: wrap;
+        row-gap: 50px;
+    }
+
+    .featureBlock {
+        width: 50%;
+    }
+
+    .featureBlock:nth-child(5) {
+        width: 100%;
+    }
+
+    .featureBlock div {
+        width: 100px;
+    }
+
+    .featureBlock svg {
+        width: 44px;
+    }
+
+    .featureBlock p {
+        font-size: 16px;
+    }
+
+    .mediaSection div {
+        gap: 20px;
+    }
+
+    .mediaBlock {
+        height: 46px;
+        font-size: 18px;
+        gap: 12px;
+        padding: 0 26px 0 9px;
+    }
+
+    .requestSection h2 {
+        font-size: 22px;
+    }
+}
+
+@media (max-width: 575px) {
+    .requestSection h2 {
+        font-size: 20px;
+        width: 95%;
+    }
+
+    .categoryBlock {
+        height: 120px;
+    }
+
+    .categoryBlock h3 {
+        font-size: 18px;
+    }
+
+    .categoryBlock img {
+        height: 55px;
+    }
+
+    .aboutBlock {
+        padding: 40px 0;
+    }
+
+    .aboutText  {
+        font-size: 18px;
+        margin-top: 32px;
+    }
+
+    .slogan {
+        margin-top: 30px;
+        font-size: 26px;
+    }
+
+    .featuresPart {
+        row-gap: 40px;
+    }
+
+    .featureBlock div {
+        width: 80px;
+    }
+
+    .featureBlock svg {
+        width: 38px;
+    }
+
+    .featureBlock p {
+        font-size: 14px;
+    }
+
+    .mediaSection div {
+        padding: 0 20px;
+        gap: 36px;
+        flex-wrap: wrap;
+    }
+}
+
+@media (max-width: 380px) {
+    .categoryBlock h3 {
+        font-size: 16px;
+    }
+
+    .categoryBlock a {
+        font-size: 14px;
+    }
+
+    .categoryBlock img {
+        height: 48px;
+    }
+}

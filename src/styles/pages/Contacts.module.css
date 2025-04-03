@@ -1,0 +1,48 @@
+
+.wrapper {
+    padding: 30px;
+    border-radius: 30px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    margin-top: 40px;
+    gap: 30px;
+}
+
+.info {
+    width: 30%;
+    gap: 40px;
+}
+
+.wrapper h3 {
+    font-size: 20px;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.paragraph {
+    gap: 15px;
+}
+
+@media (max-width: 1199px) {
+    .wrapper {
+        padding: 20px;
+        border-radius: 20px;
+    }
+
+    .info {
+        width: 40%;
+    }
+}
+
+@media (max-width: 991px) {
+    .info {
+        width: 100%;
+        gap: 30px;
+    }
+
+    .wrapper {
+        flex-direction: column;
+    }
+
+    .map {
+        height: 250px;
+    }
+}

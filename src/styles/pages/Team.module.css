@@ -1,0 +1,74 @@
+
+.text {
+    font-size: 18px;
+    margin: 30px 0 max(63px, 14vh);
+}
+
+.paragraph {
+    gap: 25px;
+}
+
+.paragraph svg {
+    width: 48px;
+    aspect-ratio: 1;
+}
+
+.paragraph p {
+    font-size: 20px;
+}
+
+.paragraph button {
+    margin-top: 15px;
+    height: 40px;
+    padding: 0 100px;
+    border-radius: 8px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+@media (max-width: 991px) {
+    .text {
+        font-size: 16px;
+    }
+
+    .paragraph {
+        gap: 20px;
+    }
+
+    .paragraph svg {
+        width: 40px;
+    }
+
+    .paragraph p {
+        font-size: 18px;
+    }
+
+    .paragraph button {
+        padding: 0 80px;
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 575px) {
+    .text {
+        font-size: 14px;
+    }
+
+    .paragraph {
+        gap: 15px;
+    }
+
+    .paragraph svg {
+        width: 32px;
+    }
+
+    .paragraph p {
+        font-size: 16px;
+    }
+
+    .paragraph button {
+        padding: 0 60px;
+        font-size: 12px;
+        height: 36px;
+        border-radius: 6px;
+    }
+}

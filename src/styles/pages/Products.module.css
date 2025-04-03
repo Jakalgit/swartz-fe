@@ -1,0 +1,199 @@
+
+.head {
+    font-size: 24px;
+}
+
+.categoriesSection {
+    margin-top: 58px;
+}
+
+.categories {
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.category {
+    width: calc(50% - 15px);
+    height: 100px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    padding: 17px 20px 17px 17px;
+    border-radius: 14px;
+}
+
+.category:hover {
+    border-color: rgba(255, 255, 255, 0.6);
+}
+
+.category h3 {
+    font-size: 18px;
+}
+
+.category:nth-child(5) {
+    width: 100%;
+}
+
+.category a {
+    gap: 6px;
+    font-size: 14px;
+    padding: 1px 3px;
+    border-radius: 4px;
+}
+
+.category a:hover {
+    gap: 10px;
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+.category a svg {
+    width: 18px;
+    aspect-ratio: 1;
+}
+
+.spheresSection {
+    margin-top: 65px;
+    padding: 35px 0 52px;
+}
+
+.spheresSection h2 {
+    font-size: 24px;
+    margin-bottom: 30px;
+}
+
+.spheresSection p, .spheresSection li {
+    font-size: 16px;
+}
+
+.spheresSection li {
+    display: flex;
+    min-height: 30px;
+}
+
+.spheresSection li span {
+    width: 6px;
+    margin-top: 3px;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    margin-right: 14px;
+}
+
+.spheresSection ul {
+    margin-top: 24px;
+}
+
+.spheresText2 {
+    margin-top: 49px;
+}
+
+.image {
+    height: 260px;
+    width: auto;
+    right: 18%;
+    top: 43%;
+}
+
+.requestSection {
+    margin-top: 72px;
+}
+
+.requestSection h2 {
+    margin-bottom: 41px;
+    font-size: 24px;
+}
+
+@media (max-width: 1199px) {
+    .image {
+        right: 9%;
+    }
+}
+
+@media (max-width: 991px) {
+    .categoriesSection {
+        margin-top: 40px;
+    }
+
+    .categories {
+        gap: 20px;
+    }
+
+    .category {
+        width: calc(50% - 10px);
+        padding: 14px 18px 14px 14px;
+    }
+
+    .category h3 {
+        font-size: 16px;
+    }
+
+    .category img {
+        height: 90%;
+    }
+
+    .image {
+        height: 230px;
+        right: 5%;
+    }
+}
+
+@media (max-width: 767px) {
+    .categoriesSection {
+        margin-top: 30px;
+    }
+
+    .category {
+        width: 100%;
+    }
+
+    .spheresSection h2 {
+        font-size: 22px;
+        margin-bottom: 20px;
+    }
+
+    .spheresSection p, .spheresSection li {
+        font-size: 14px;
+    }
+
+    .spheresSection li {
+        min-height: 26px;
+    }
+
+    .spheresSection ul {
+        margin-top: 18px;
+    }
+
+    .spheresText2 {
+        margin-top: 34px;
+    }
+
+    .image {
+        height: 200px;
+        right: 3%;
+        opacity: 0.5;
+    }
+
+    .requestSection {
+        margin-top: 60px;
+    }
+
+    .requestSection h2 {
+        margin-bottom: 35px;
+        font-size: 22px;
+    }
+}
+
+@media (max-width: 575px) {
+    .spheresSection li span {
+        width: 4px;
+        margin-top: 3px;
+        margin-right: 8px;
+    }
+
+    .image {
+        height: 280px;
+        right: 3%;
+        opacity: 0.2;
+    }
+
+    .requestSection h2 {
+        font-size: 18px;
+    }
+}

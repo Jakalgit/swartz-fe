@@ -1,0 +1,247 @@
+{
+  "header": {
+    "products": "Products",
+    "media": "Media",
+    "aboutCompany": "About company",
+    "contacts": "Contacts",
+    "callback": "Callback",
+    "emailButtonTitle": "Write a message",
+    "finderButtonTitle": "Open finder",
+    "menuButtonTitle": "Open menu",
+    "finder": {
+      "inputPlaceholder": "Enter text...",
+      "findButton": {
+        "ariaLabel": "Search for products"
+      },
+      "closeButton": {
+        "ariaLabel": "Close finder"
+      }
+    },
+    "productsMenu": {
+      "blocks": {
+        "1": {
+          "head": "Mobile surveillance",
+          "items": {
+            "1": "BART Mini",
+            "2": "BART Pro"
+          }
+        },
+        "2": {
+          "head": "Uninterruptible power supplies",
+          "items": {
+            "1": "BART Power"
+          }
+        },
+        "3": {
+          "head": "Security",
+          "items": {
+            "1": "Video cameras",
+            "2": "Spotlights",
+            "3": "Thermal imagers"
+          }
+        },
+        "4": {
+          "head": "Unmanned aerial vehicles",
+          "items": {
+            "1": "BART Fly",
+            "2": "BART Eagle"
+          }
+        },
+        "5": {
+          "head": "Modules and components",
+          "items": {
+            "1": "Batteries",
+            "2": "Voltage converters",
+            "3": "Wi-Fi adapters",
+            "4": "Switches"
+          }
+        }
+      }
+    },
+    "mediaMenu": {
+      "blocks": {
+        "1": "News",
+        "2": "Projects",
+        "3": "Articles",
+        "4": "Video"
+      }
+    },
+    "aboutMenu": {
+      "blocks": {
+        "1": "About the company",
+        "2": "Team",
+        "3": "Partners",
+        "4": "Delivery and payment"
+      }
+    }
+  },
+  "requestPopup": {
+    "contactUs": "Write to us",
+    "closeButtonTitle": "Close popup",
+    "namePlaceholder": "Your name",
+    "emailPlaceholder": "Your Email",
+    "messagePlaceholder": "Your message",
+    "send": "Submit",
+    "caption": "By clicking the 'Submit' button, I give my consent to the processing of my personal data",
+    "captionLink": "",
+    "success": "Запрос успешно отправлен"
+  },
+  "HomePage": {
+    "mobileSurveillance": "Mobile surveillance",
+    "security": "Safety",
+    "aerialVehicles": "Unmanned aerial vehicles",
+    "modulesAndComponents": "Modules and components",
+    "powerSupplies": "Uninterruptible power supplies",
+    "look": "Look",
+    "about": "About the company",
+    "aboutText": "a growing international company engaged in the development and production of video surveillance systems used in the protection of military and civilian facilities. The range includes: thermal imagers, video cameras, modules, drones and software.",
+    "slogan": "The company's motto is -\n \"Safety ahead of its time.\"",
+    "features": {
+      "1": "Operating temperature\nfrom -70 to 60°С",
+      "2": "Russian\nproduction",
+      "3": "Ethernet, RS485, PoE, \nONVIF, H.265",
+      "4": "Tech support",
+      "5": "Warranty up to 2 years"
+    },
+    "photos": "Photo Gallery",
+    "ourMedia": "Our social networks",
+    "requestHeader": "Want solutions tailored to your needs?\nWrite to our experts!"
+  },
+  "ProductsPage": {
+    "head": "Our products",
+    "spheres": "Areas of application of our products",
+    "text1": "The main products of Swartz Mayer are mobile security systems integrated into the overall system of protected objects. Our products are also used on combat contact lines and for the protection of headquarters and strategic positions. In addition, the company produces technical means and equipment that serve security purposes:",
+    "blocks1": {
+      "1": "Video cameras and special surveillance systems",
+      "2": "Rotary devices",
+      "3": "Mobile surveillance systems",
+      "4": "UAV",
+      "5": "Thermal Imaging Mounts and Payloads for UAVs"
+    },
+    "text2": "Swartz Mayer products are used in the following areas:",
+    "blocks2": {
+      "1": "In hot spots",
+      "2": "In the war zone",
+      "3": "To protect state borders",
+      "4": "For perimeter protection of public and private facilities",
+      "5": "In industry – to prevent emergency situations",
+      "6": "In construction - to control employees",
+      "7": "And in other areas of public life"
+    },
+    "request": "Didn't find a solution? Write to our experts!"
+  },
+  "AboutPage": {
+    "head": "About the company",
+    "blocks": {
+      "1": {
+        "head": "Made systems",
+        "largeText": "50+",
+        "smallText": "pieces"
+      },
+      "2": {
+        "head": "Market leaders",
+        "largeText": "5+",
+        "smallText": "our\npartners"
+      },
+      "3": {
+        "head": "Production experience",
+        "largeText": "5",
+        "smallText": "years"
+      },
+      "4": {
+        "head": "Quality",
+        "largeText": "3",
+        "smallText": "levels of\ncontrol"
+      },
+      "adaptationToConditions": {
+        "head": "Adaptation to\nconditions",
+        "text": "-70...+60°C"
+      },
+      "industrialStandards": {
+        "head": "Industrial\nstandards",
+        "text": "Ethernet, RS485, PoE, \nONVIF, H.265"
+      },
+      "guarantee": {
+        "head": "Warranty",
+        "smallText1": "up\nto",
+        "smallText2": "years",
+        "largeText": "2"
+      }
+    },
+    "aboutText1": "Swartz Mayer is a growing international company engaged in the development and production of video surveillance systems used in the protection of military and civilian facilities. The range includes: thermal imagers, video cameras, modules, drones and software.",
+    "aboutText2": "The efficiency and reliability of our products are confirmed by our customers; more than 10 Russian enterprises have already become our clients.",
+    "slogan": "The company's motto is -\n \"Safety ahead of its time.\"",
+    "aboutText3": "We will help solve almost any problem related to military strongpoint systems. We will develop a system for your needs and conditions. BART complexes have proven themselves as a light, convenient and technological solution for protecting dugouts, strongpoints, headquarters. Our complexes serve to protect state borders.",
+    "aboutBart": "The history of the BART system began in 2022. Then a difficult task was set - to create a high-tech, protected, lightweight and easy-to-use system to protect and save the lives of military personnel. The BART Version 1.0 system was developed. The complex proved itself to be effective in the field, earning recognition among the military. Since then, the BART complex has been refined and modified into an entire ecosystem. At the moment, the BART line is developing and is in great demand.",
+    "textSection1": {
+      "head": "We are:",
+      "paragraphs": {
+        "1": "The company's employees have specialized higher education.",
+        "2": "Work experience is about 4 years.",
+        "3": "Design and engineering department.",
+        "4": "Assembly production."
+      }
+    },
+    "textSection2": {
+      "head": "Our advantages:",
+      "paragraphs": {
+        "1": "Reliability and quality of equipment, ease of use, best characteristics.",
+        "2": "We are your reliable partners, and our support does not end after the completion of the project, we are ready to assist at any stage."
+      }
+    }
+  },
+  "TeamPage": {
+    "head": "Our team",
+    "text": "Our team consists of professionals. We have accumulated a wealth of experience, valuable personnel and technologies. We are approached not only to solve problems and target tasks, but also for expert opinion. We keep feedback with the customer, which allows us to refine and improve our product. Together with our customers we achieve great results.",
+    "chat": "Let us know your problem and together we will\nfind the best way to solve it!",
+    "writeToUs": "Write to us"
+  },
+  "PartnersPage": {
+    "head": "Our partners",
+    "partners": {
+      "1": {
+        "name": "LLC STC “SOYUZ”",
+        "description": "Works in the field of design, manufacture, installation and commissioning of modern non-standard technological and auxiliary equipment and fixtures required to equip or modernize factories/shops/sites for the manufacture and repair of military equipment, including armored vehicles, as well as for field repair."
+      },
+      "2": {
+        "name": "SRC Solutions Ltd.",
+        "description": "The company develops and implements information systems, including both customized and universal solutions. The company's assets include solutions for enterprises of different orientation. All proposed systems successfully work in various organizations."
+      }
+    }
+  },
+  "DeliveryAndPaymentPage": {
+    "head": "Delivery and payment",
+    "block1": {
+      "head": "Payment for orders",
+      "text": "Payment for orders by bank transfer by invoice, as well as you can pay in cash. After payment of the invoice amount, the manager will contact you to agree on the terms of delivery."
+    },
+    "block2": {
+      "head": "Delivery of orders",
+      "paragraphs": {
+        "1": {
+          "title": "Delivery in Russia",
+          "text": "We use transportation companies for delivery. Terms and cost of delivery are determined by these companies and their transportation tariffs. The payer for transportation is agreed in advance by our manager with the customer."
+        },
+        "2": {
+          "title": "Delivery to other countries",
+          "text": "Possible delivery by transportation companies, paid separately."
+        },
+        "3": {
+          "title": "Self-delivery",
+          "text": "Possible self-delivery at the address:"
+        }
+      }
+    }
+  },
+  "ContactsPage": {
+    "head": "Contacts",
+    "address": "Address",
+    "phone": "Phone number",
+    "freeNumber": ""
+  },
+  "footer": {
+    "slogan": "Security ahead of its time",
+    "address": "Moscow",
+    "cp": "© 2025 Swartz Mayer Ltd."
+  }
+}

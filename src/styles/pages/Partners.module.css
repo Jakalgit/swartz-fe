@@ -1,0 +1,86 @@
+
+.ntcImage {
+    height: 154px;
+    width: auto;
+    border-radius: 5px;
+}
+
+.srcImage {
+    height: 107px;
+    width: auto;
+}
+
+.paragraph {
+    padding: 50px 0;
+    gap: 24px;
+}
+
+.paragraph h2 {
+    font-size: 22px;
+}
+
+.paragraph p {
+    font-size: 18px;
+    width: 50%;
+}
+
+@media (max-width: 1199px) {
+    .ntcImage {
+        height: 120px;
+    }
+
+    .paragraph {
+        padding: 40px 0;
+    }
+
+    .paragraph p {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 991px) {
+    .col {
+        flex-direction: column;
+        gap: 14px;
+    }
+
+    .paragraph h2 {
+        font-size: 20px;
+    }
+
+    .paragraph p {
+        width: 100%;
+    }
+}
+
+@media (max-width: 767px) {
+    .col {
+        gap: 20px;
+    }
+
+    .paragraph {
+        gap: 15px;
+    }
+
+    .paragraph p {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 575px) {
+    .ntcImage {
+        height: 105px;
+    }
+
+    .srcImage {
+        height: 90px;
+    }
+
+    .col {
+        gap: 30px;
+    }
+
+    .paragraph {
+        padding: 30px 0;
+    }
+}

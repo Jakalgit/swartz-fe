@@ -1,0 +1,185 @@
+.header {
+    background: rgba(0, 0, 0, 0.7);
+    backdrop-filter: blur(30px);
+}
+
+.headerContainer {
+    height: var(--header-height);
+}
+
+.logo {
+    margin-right: 110px;
+}
+
+.logo svg {
+    height: 34px;
+}
+
+.logo:hover {
+
+}
+
+.dropdownMenu {
+    display: none;
+}
+
+.linkItem:hover .dropdownMenu {
+    display: block;
+}
+
+.links a {
+    font-size: 14px;
+    padding: 0 25px;
+}
+
+.links span {
+    height: 3px;
+}
+
+.callbackBlock {
+    margin-left: auto;
+}
+
+.callbackBlock a {
+    font-size: 16px;
+}
+
+.callbackBlock span {
+    font-size: 12px;
+}
+
+.actionIcons {
+    gap: 14px;
+    margin-left: 45px;
+}
+
+.actionIcons svg {
+    width: 20px;
+    aspect-ratio: 1;
+}
+
+.langButton {
+    gap: 4px;
+    margin-left: 30px;
+}
+
+.langButton svg {
+    width: 16px;
+    aspect-ratio: 1;
+}
+
+.localesList {
+    border-radius: 8px;
+    top: 5px;
+    border: 0.1rem solid rgba(255, 255, 255, 0.2);
+}
+
+.localesList a {
+    padding: 5px 8px;
+    font-size: 13px;
+}
+
+.localesList a:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+.finderBlock {
+    gap: 10px;
+}
+
+.finderBlock svg {
+    fill: rgba(255, 255, 255, 0.3);
+}
+
+.finderBlock svg:hover {
+    fill: white;
+}
+
+.menuButton {
+    margin-left: 20px;
+    display: none;
+}
+
+.menuButton svg {
+    width: 20px;
+    aspect-ratio: 1;
+}
+
+@media (max-width: 1399px) {
+    .logo {
+        margin-right: 60px;
+    }
+
+    .links a {
+        padding: 0 20px;
+    }
+}
+
+@media (max-width: 1199px) {
+    .logo {
+        margin-right: 40px;
+    }
+
+    .logo svg {
+        height: 30px;
+    }
+
+    .links a {
+        padding: 0 16px;
+    }
+
+    .actionIcons {
+        gap: 10px;
+        margin-left: 30px;
+    }
+}
+
+@media (max-width: 991px) {
+    .logo {
+        margin-right: 30px;
+    }
+
+    .logo svg {
+        height: 25px;
+    }
+
+    .callbackBlock {
+        display: none;
+    }
+
+    .actionIcons {
+        margin-left: auto;
+    }
+
+    .links {
+        display: none;
+    }
+
+    .actionIcons svg {
+        width: 16px;
+    }
+
+    .langButton {
+        font-size: 12px;
+        gap: 3px;
+        margin-left: 20px;
+    }
+
+    .langButton svg {
+        width: 14px;
+    }
+
+    .menuButton {
+        display: block;
+    }
+}
+
+@media (max-width: 350px) {
+    .logo {
+        margin-right: 0;
+    }
+
+    .logo svg {
+        height: 22px;
+    }
+}

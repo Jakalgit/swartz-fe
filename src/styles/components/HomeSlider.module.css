@@ -1,0 +1,100 @@
+
+.imageHeight {
+    height: 400px;
+}
+
+.currentImage {
+    border-radius: 10px;
+    box-shadow: 0 0 30px rgba(255, 255, 255, 0.4);
+    width: auto;
+}
+
+.slides {
+    margin-top: 50px;
+}
+
+.slides div {
+    gap: 20px;
+    padding: 3px;
+}
+
+.slides img {
+    height: 125px;
+    width: auto;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.button {
+    border-radius: 10px;
+}
+
+.button:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.button svg {
+    width: 48px;
+    aspect-ratio: 1;
+}
+
+@media (max-width: 1199px) {
+    .imageHeight {
+        height: 320px;
+    }
+
+    .currentImage {
+        border-radius: 10px;
+        box-shadow: 0 0 30px rgba(255, 255, 255, 0.4);
+        width: auto;
+    }
+
+    .slides img {
+        height: 100px;
+    }
+}
+
+@media (max-width: 767px) {
+    .imageHeight {
+        height: 250px;
+    }
+}
+
+@media (max-width: 575px) {
+    .imageHeight {
+        height: 210px;
+    }
+
+    .slides img {
+        height: 90px;
+    }
+
+    .button svg {
+        width: 40px;
+    }
+
+    .slides div {
+        gap: 14px;
+        padding: 3px;
+    }
+
+    .currentImage {
+        border-radius: 5px;
+    }
+}
+
+@media (max-width: 395px) {
+    .imageHeight {
+        height: 190px;
+    }
+}
+
+@media (max-width: 370px) {
+    .button svg {
+        width: 32px;
+    }
+
+    .imageHeight {
+        height: 150px;
+    }
+}

@@ -1,0 +1,72 @@
+
+.menu {
+    height: calc(100vh - var(--header-height));
+    border-top: 1px solid rgba(255, 255, 255, 0.4);
+}
+
+.contactsBlock {
+    padding: 18px 0;
+    gap: 4px;
+}
+
+.largeText {
+    font-size: 16px;
+}
+
+.contactsBlock a:last-child {
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.sepLine {
+    height: 1px;
+    background-color: rgba(255, 255, 255, 0.4);
+}
+
+.menuBlock {
+    height: 48px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.4);
+}
+
+.menuBlock:last-child {
+    border: none;
+}
+
+.menuBlock h3 {
+    font-size: 16px;
+}
+
+.arrowIcon {
+    width: 32px;
+    aspect-ratio: 1;
+}
+
+.menuLevel1Block {
+    height: 36px;
+}
+
+.menuLevel1Block div {
+    gap: 6px;
+}
+
+.menuLevel1BlockSvg {
+    width: 20px;
+    aspect-ratio: 1;
+}
+
+.menuLevel1Block h4 {
+    font-size: 14px;
+    margin-left: 7px;
+}
+
+.menuLevel1Block:last-child {
+    margin-bottom: 10px;
+}
+
+.menuLevel2Block {
+    gap: 8px;
+}
+
+.menuLevel2Block a:last-child {
+    margin-bottom: 10px;
+}

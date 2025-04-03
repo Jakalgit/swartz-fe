@@ -1,0 +1,17 @@
+.wrapper {
+    border-bottom: 0.1rem solid rgba(255, 255, 255, 0.3);
+    padding-bottom: 3px;
+    transition: all .2s;
+}
+
+.wrapper:focus-within {
+    border-bottom-color: white;
+}
+
+.input {
+    font-size: 14px;
+}
+
+.input::placeholder {
+    color: rgba(255, 255, 255, 0.3);
+}

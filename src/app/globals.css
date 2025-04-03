@@ -3,19 +3,67 @@
 @tailwind utilities;
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
+  --background: black;
+  --foreground: white;
+  --purple-color: #18161D;
+  --blue-color: #4E80FF;
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+  --header-height: 60px;
 }
 
 body {
-  color: var(--foreground);
   background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+  color: var(--foreground);
+  font-family: 'Commissioner', serif;
+  min-width: 320px;
+}
+
+button {
+  outline: none;
+  border: none;
+  background: none;
+  padding: 0;
+}
+
+svg {
+  transition: all 0.2s;
+}
+
+input {
+  outline: none;
+  border: none;
+  background: none;
+}
+
+svg {
+  fill: white;
+}
+
+.lexend-giga {
+  font-family: 'Lexend Giga', serif;
+}
+
+.max-vh {
+  min-height: calc(100vh - 2 * var(--header-height));
+  margin-top: var(--header-height);
+}
+
+.head {
+  font-size: 24px;
+}
+
+@media (max-width: 991px) {
+  :root {
+    --header-height: 50px;
+  }
+}
+
+@media (max-width: 767px) {
+  .head {
+    font-size: 22px;
+  }
+
+  .max-vh {
+    margin-top: calc(var(--header-height) * 0.6);
+  }
 }
