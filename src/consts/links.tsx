@@ -69,29 +69,6 @@ export const generateLinks = (t: any, locale: string) => {
 		{
 			head: t('products'),
 			href: `/${locale}${PRODUCTS_LINKS.href}`,
-			items: PRODUCTS_NUMBER_OF_ITEMS.map((count: number, index) => {
-				return {
-					head: t(`productsMenu.blocks.${index + 1}.head`),
-					href: `/${locale}${PRODUCTS_LINKS.items[index].href}`,
-					icon: PRODUCTS_SVGS[index],
-					items: new Array(count).fill(0).map((_, i: number) => {
-						return {
-							text: t(`productsMenu.blocks.${index + 1}.items.${i + 1}`),
-							href: `/${locale}${PRODUCTS_LINKS.items[index].items[i]}`,
-						}
-					}),
-				}
-			})
-		},
-		{
-			head: t('media'),
-			href: `/${locale}${MEDIA_LINKS.href}`,
-			items: new Array(MEDIA_NUMBER_OF_LINKS).fill(0).map((_, i: number) => {
-				return {
-					head: t(`mediaMenu.blocks.${i + 1}`),
-					href: `/${locale}${MEDIA_LINKS.items[i].href}`,
-				}
-			})
 		},
 		{
 			head: t('aboutCompany'),

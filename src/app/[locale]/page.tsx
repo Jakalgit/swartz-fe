@@ -102,7 +102,7 @@ export default async function Home() {
                       </div>
                       <div className="flex mt-auto">
                         <a
-                          href={`/${locale}${block.href}`}
+                          href={`#`}
                           className="flex items-center duration-300 cursor-pointer"
                         >
                           {t('look')}

@@ -66,7 +66,7 @@ export default async function Products() {
 										<span className="flex mt-auto">
 											<a
 												className="flex items-center duration-300"
-												href={`/${locale}${block.href}`}
+												href={`#`}
 											>
 												Посмотреть
 												<ArrowRightIcon/>

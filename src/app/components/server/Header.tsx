@@ -21,12 +21,7 @@ export default async function Header() {
 		{
 			text: t('products'),
 			href: `/${locale}/products`,
-			menu: <ProductsMenu />,
-		},
-		{
-			text: t('media'),
-			href: `/${locale}/media`,
-			menu: <MediaMenu />,
+			menu: <></>
 		},
 		{
 			text: t('aboutCompany'),
@@ -71,9 +66,6 @@ export default async function Header() {
 						</div>
 						<div className={`flex items-center ${styles.actionIcons}`}>
 							<ActionButtons/>
-							<a href="">
-								<ShoppingCart/>
-							</a>
 						</div>
 						<LanguageSelector/>
 						<MenuButton/>
