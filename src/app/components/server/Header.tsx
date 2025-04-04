@@ -61,7 +61,7 @@ export default async function Header() {
 							))}
 						</div>
 						<div className={`flex flex-col ${styles.callbackBlock}`}>
-							<a className={`font-bold`} href="">8 800 555 35 35</a>
+							<a className={`font-bold`} href="">+7 995 885 71 60</a>
 							<span className={`opacity-50`}>{t('callback')}</span>
 						</div>
 						<div className={`flex items-center ${styles.actionIcons}`}>

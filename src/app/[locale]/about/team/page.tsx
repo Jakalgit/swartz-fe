@@ -19,7 +19,7 @@ export default async function Team() {
 					<p className={styles.text}>
 						{t('text')}
 					</p>
-					<div className={`flex flex-col items-center ${styles.block}`}>
+					<div className={`flex flex-col items-center ${styles.paragraph}`}>
 						<ChatIcon />
 						<p className="text-center">
 							<BreakText text={t('chat')} />

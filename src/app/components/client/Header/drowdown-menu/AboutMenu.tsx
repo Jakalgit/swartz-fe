@@ -14,9 +14,9 @@ const AboutMenu: React.FC<Props> = async ({ className }) => {
 	const locale = await getLocale();
 
 	const paths = [
-		`${locale}/about/team`,
-		`${locale}/about/partners`,
-		`${locale}/about/delivery-and-payment`
+		`/${locale}/about/team`,
+		`/${locale}/about/partners`,
+		`/${locale}/about/delivery-and-payment`
 	];
 
 	return (

@@ -21,6 +21,10 @@
     gap: 15px;
 }
 
+.map {
+    border-radius: 8px;
+}
+
 @media (max-width: 1199px) {
     .wrapper {
         padding: 20px;

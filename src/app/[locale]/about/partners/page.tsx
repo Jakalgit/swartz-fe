@@ -27,7 +27,7 @@ export default async function Page() {
 					<h1 className="head font-bold">{t('head')}</h1>
 					{blocks.map((block, index) =>
 						<div
-							className={`flex flex-column ${styles.block}`}
+							className={`flex flex-column ${styles.paragraph}`}
 							key={index}
 						>
 							<h2 className="font-bold">

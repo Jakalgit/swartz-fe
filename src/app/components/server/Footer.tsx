@@ -30,7 +30,7 @@ export default async function Footer() {
 						</a>
 						<div className={`flex flex-col items-start`}>
 							<a className="font-bold" href="">
-								8 800 555 35 35
+								+7 995 885 71 60
 							</a>
 							<button>
 								{tHeader('callback')}

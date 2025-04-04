@@ -68,10 +68,9 @@
     },
     "aboutMenu": {
       "blocks": {
-        "1": "About the company",
-        "2": "Team",
-        "3": "Partners",
-        "4": "Delivery and payment"
+        "1": "Team",
+        "2": "Partners",
+        "3": "Delivery and payment"
       }
     }
   },
@@ -236,6 +235,7 @@
   "ContactsPage": {
     "head": "Contacts",
     "address": "Address",
+    "addressText": "Russia, Moscow, Troitsk, Promyshlennaya St., 19 p.1",
     "phone": "Phone number",
     "freeNumber": ""
   },

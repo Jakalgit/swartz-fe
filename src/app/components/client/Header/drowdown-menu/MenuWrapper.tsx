@@ -2,6 +2,7 @@
 
 import React from 'react';
 import stylesMenu from "@/styles/components/header-dropdown-menu/HeaderDropdownMenu.module.css";
+import stylesHeader from "@/styles/components/Header.module.css"
 import {motion} from "framer-motion";
 import {Container} from "react-bootstrap";
 
@@ -16,7 +17,7 @@ const MenuWrapper: React.FC<Props> = ({ children, className }) => {
 			initial={{opacity: 0, height: 0}}
 			animate={{opacity: 1, height: 'auto'}}
 			exit={{opacity: 0, height: 0}}
-			className={`overflow-hidden ${stylesMenu.menu} ${className}`}
+			className={`overflow-hidden ${stylesMenu.menu} ${stylesHeader.header} ${className}`}
 		>
 			<Container>
 				{children}
