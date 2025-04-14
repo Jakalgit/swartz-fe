@@ -13,6 +13,8 @@ export default async function Footer() {
 
 	const links = generateLinks(tHeader, locale);
 
+	console.log(links)
+
 	return (
 		<footer className={`flex flex-col bg-[color:--purple-color] ${styles.footer}`}>
 			<Container>

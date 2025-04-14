@@ -76,7 +76,7 @@ export const generateLinks = (t: any, locale: string) => {
 			items: new Array(ABOUT_NUMBER_OF_LINKS).fill(0).map((_, i: number) => {
 				return {
 					head: t(`aboutMenu.blocks.${i + 1}`),
-					href: `/${locale}${ABOUT_LINKS.items[i].href}`,
+					href: `/${locale}${ABOUT_LINKS.href}${ABOUT_LINKS.items[i].href}`,
 				}
 			})
 		},
